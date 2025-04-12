@@ -1,0 +1,78 @@
+body {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  background-color: #fdf6e3;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+h1, h2 {
+  color: #ff69b4;
+}
+
+h3 {
+  color: #3a87ad;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Clases generales */
+.bloque-info {
+  background-color: #fff3cd;
+}
+
+.bloque-info-historia {
+  background-color: #d1e7dd !important;
+}
+
+.pregunta {
+  background-color: #ffe0f0;
+}
+
+.pregunta-derechos {
+  background-color: #e0f7ff;
+}
+
+/* ID */
+#contenido-principal {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Secciones */
+.section {
+  display: none;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.active {
+  display: block;
+}
+
+footer {
+  font-size: 14px;
+  color: #888;
+}
+#ajolote {
+  transition: transform 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.vibrate {
+  animation: vibrar 0.2s linear;
+}
+
+@keyframes vibrar {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(-5deg); }
+  75% { transform: rotate(5deg); }
+  100% { transform: rotate(0deg); }
+}
